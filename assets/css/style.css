@@ -245,6 +245,7 @@ span.theme {
     bottom: 0;
     height: 100%;
 }
+
 /* Button CSS End*/
 
 /* Header CSS Start */
@@ -444,6 +445,7 @@ span.theme {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 5px solid #B71234;
 }
 
 .img_text-overlay {
@@ -456,7 +458,7 @@ span.theme {
     transform: translateY(-50%);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 10px solid #B71234;
+    border: 5px solid #B71234;
     border-radius: 8px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
@@ -473,6 +475,9 @@ span.theme {
     font-size: 1.1rem;
     line-height: 1.4;
     color: #222222;
+}
+.img_text a {
+color: #B71234;
 }
 
 .img_text-content h3 {
@@ -530,21 +535,328 @@ span.theme {
 .card-container:hover .hidden-text {
     right: 0;
 }
+
 .hidden-text h3 {
     font-size: 1.6rem;
 }
+
 .hidden-text p {
     margin: 0;
     font-size: 16px;
     text-align: center;
 }
+
 .hotel_cat_btn {
     border-color: #fff;
 }
+
 .hotel_cat_btn:hover {
     border-color: #000;
 }
+
 .hotel_cat_btn::after {
     background: #000;
 }
+
 /* Hotel Categories CSS End */
+
+/* Why Us CSS Start */
+.why_us_cards_box {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.why_us_card {
+    width: 100%;
+    padding: 3rem 1rem;
+    background-color: #B71234;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.why_us_card_header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.why_us_card .why_us_card_icon {
+    width: 3rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.why_us_card h3 {
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease;
+    line-height: 1;
+    font-size: 1.4rem;
+}
+
+.why_us_card p {
+    color: #fff;
+    line-height: 1.6;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.why_us_card:hover {
+    background-color: #e5e5e5;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.why_us_card:hover h3,
+.why_us_card:hover p {
+    color: #222222;
+}
+
+.why_us_card:hover .why_us_card_icon {
+    filter: invert(1);
+}
+/* Why Us CSS End */
+
+/* Home Tips Cards CSS Start */
+.home_tips_cards {
+    display: inline-block;
+    background-color: #222222;
+    width: 100%;
+    height: 100%;
+}
+
+.home_tips_rap>p {
+    font-size: 1.3rem;
+    color: #495057;
+
+}
+
+.home_tips_cards:hover .home_tips_cards_img_inner {
+    transform: scale(1.1);
+}
+
+.home_tips_cards_img {
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.home_tips_cards_img_inner {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s all ease-in-out;
+}
+
+.home_cards-content {
+    padding: 0.875rem 0.9375rem;
+}
+
+.home_cards-content h3 {
+    color:#B71234;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.home_cards-content p {
+    color: #fff;
+    font-size: 1rem;
+}
+.blogs_sec_btn {
+    color: #222222;
+}
+.blogs_sec_btn:hover{
+    color: #fff;
+}
+/* Home Tips Cards CSS End */
+
+
+/* Footer CSS Start */
+.footer {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer .footer-logos {
+    margin-bottom: 2.8125rem;
+}
+
+.footer .footer-logo {
+    padding-bottom: 0.9375rem;
+}
+
+.footer .footer-logo img {
+    width: 11.25rem;
+}
+
+.footer .footer-links {
+    padding-top: 1rem;
+}
+
+.footer .footer-links a {
+    padding: 0 7px;
+    font-size: 1.125rem;
+    color: #584528;
+    display: inline-block;
+}
+
+.footer .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+
+}
+
+.footer .footer-links ul li {
+    padding: 0 15px 5px 0;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.footer .footer-links ul li:last-child {
+    padding-right: 0;
+}
+
+.logo-bottom a {
+    color: #222222;
+    font-size: 1.875rem;
+}
+
+.footer a:hover {
+    color: #B71234;
+}
+
+.footer a i {
+    font-size: 0.75rem;
+    padding-right: 0.625rem;
+}
+
+.footer .copyright .logo {
+    width: 6.875rem;
+}
+
+.footer .copyright p {
+    padding-bottom: 1.25rem;
+}
+
+.footer .copyright p:last-child {
+    padding-bottom: 0;
+}
+
+.copyright-text p {
+    color: #222222;
+}
+
+.after-footer {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0.9375rem 0 0.9375rem;
+    color: #000;
+    font-size: 0.9375rem;
+}
+
+.after-footer p {
+    margin-bottom: 0;
+    color: #222222;
+    font-size: 0.9375rem;
+}
+
+.after-footer .before-footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ssl-certi-inner {
+    height: 3.75rem;
+    width: 18.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.after-footer .col-12 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    font-size: 0.9375rem;
+}
+
+.after-footer .col-12 a {
+    color: #000
+}
+
+.after-footer .col-12 a:hover {
+    color: #afbff9;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.after-footer .col-12 .social-links a {
+    background-color: #B71234;
+    color: #000;
+    margin: 0 5px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s all ease-in-out;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.after-footer .col-12 .social-links a svg {
+    fill: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.after-footer .col-12 .social-links a:hover {
+    transform: translateY(-3px);
+    box-shadow: #fff 0px 3px 10px;
+}
+
+
+
+.social-links a i {
+    font-size: 1.25rem;
+    padding-right: 0.4375rem;
+    padding-left: 0.4375rem;
+}
+
+.disclaimer_txt {
+    border-top: 1px solid #B71234;
+    border-bottom: 1px solid #B71234;
+}
+.disclaimer_txt p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+.disclaimer_txt h3 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #B71234;
+}
+
+/* Footer CSS End */
