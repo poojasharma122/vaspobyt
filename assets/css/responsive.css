@@ -1,0 +1,48 @@
+@media screen and (max-width:1199px) {
+    html {
+        font-size: 15px;
+    }
+
+
+
+}
+
+
+@media (max-width: 991px) {
+    .img_text-main {
+        max-width: 100%;
+    }
+    .img_text-overlay {
+        display: none;
+    }
+    .img_text-content {
+        margin-top: 35px;
+        padding-left: 0;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 14px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:575px) {
+    .nav-drawer {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:480px) {
+
+
+
+}
