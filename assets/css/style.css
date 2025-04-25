@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Global CSS Start */
 html {
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", sans-serif;
     padding: 0;
     margin: 0;
     word-break: break-word;
@@ -40,7 +40,7 @@ p {
     line-height: 1.3;
     padding: 0;
     margin: 0;
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 500;
 }
 
@@ -58,17 +58,17 @@ ul li {
 a {
     display: inline-block;
     text-decoration: none;
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 button,
 textarea,
 input {
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 input {
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 img {
@@ -476,8 +476,9 @@ span.theme {
     line-height: 1.4;
     color: #222222;
 }
+
 .img_text a {
-color: #B71234;
+    color: #B71234;
 }
 
 .img_text-content h3 {
@@ -622,6 +623,7 @@ color: #B71234;
 .why_us_card:hover .why_us_card_icon {
     filter: invert(1);
 }
+
 /* Why Us CSS End */
 
 /* Home Tips Cards CSS Start */
@@ -662,7 +664,7 @@ color: #B71234;
 }
 
 .home_cards-content h3 {
-    color:#B71234;
+    color: #B71234;
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -671,12 +673,15 @@ color: #B71234;
     color: #fff;
     font-size: 1rem;
 }
+
 .blogs_sec_btn {
     color: #222222;
 }
-.blogs_sec_btn:hover{
+
+.blogs_sec_btn:hover {
     color: #fff;
 }
+
 /* Home Tips Cards CSS End */
 
 
@@ -848,10 +853,12 @@ color: #B71234;
     border-top: 1px solid #B71234;
     border-bottom: 1px solid #B71234;
 }
+
 .disclaimer_txt p {
     font-size: 1rem;
     font-weight: 500;
 }
+
 .disclaimer_txt h3 {
     font-size: 1.7rem;
     font-weight: 400;
@@ -860,3 +867,280 @@ color: #B71234;
 }
 
 /* Footer CSS End */
+
+
+/* Hotel Pages Banner Start */
+.common_banner {
+    height: 35.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.common_banner::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgb(0 0 0 / 60%);
+}
+
+.common__title.text-center {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.common__title h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.common__sec {
+    padding: 4.25rem 1.25rem;
+    color: #fff;
+}
+
+.common__head {
+    padding: 0 20px;
+}
+
+.common__head h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Hotel Pages Banner End */
+
+/* Hotel Why Us CSS Start */
+.hotel_why_us .why_us_wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Hotel Why Us CSS End*/
+
+
+/* Hotel Pages CSS Start */
+.hotel_cards_sec {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(0 0 0/60%);
+    background-blend-mode: multiply;
+}
+.hotels_card_img_outer {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.hotel_cards {
+    width: 100%;
+    max-width: 81.25rem;
+    margin: 0 auto;
+}
+
+.hotel_cards .row {
+    justify-content: center !important;
+}
+
+.hotel_cards_wrap {
+    overflow: hidden;
+}
+
+.hotels_card_img:hover {
+    transform: scale(1.2);
+}
+.hotels_loc_tag {
+    position: absolute;
+    right: 1.25rem;
+    top: 1.25em;
+    background: #B71234;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    z-index: 50;
+}
+
+.hotels_loc_tag p svg {
+    height: 13px;
+    width: 13px;
+    margin-right: 3px;
+}
+.hotels_loc_tag p {
+    display: inline-flex;
+    align-items: center;
+}
+.hotels_card_img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.4s all ease-in-out;
+    position: relative;
+    z-index: 10;
+}
+
+.hotels_card_content h2 {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+p.italic_text {
+    font-style: italic;
+}
+
+.hotels_card_content {
+    background-color: #B71234;
+    padding: 3.125rem 3.125rem 3.125rem 8.75rem;
+    margin-top: 3.125rem;
+}
+
+.hotel_cards .img_prt {
+    margin-bottom: 3.125rem;
+    margin-right: -6.25rem;
+}
+
+.hotel_cards.reverse .hotels_card_content {
+    padding: 3.125rem 8.75rem 3.125rem 3.125rem;
+}
+
+.hotel_cards.reverse .img_prt {
+    margin-left: 0;
+}
+
+.hotel_cards.reverse .hotels_card_img_outer {
+    margin-left: -6.25rem;
+}
+
+.hotels_card_content ul {
+    margin-top: 1.25rem;
+}
+
+.hotels_card_content ul li {
+    list-style-type: none;
+}
+
+.hotels_card_content ul li::marker {
+    color: #fff;
+}
+
+.hotels_card_content ul li p {
+    color: #fff;
+}
+
+.hotels_card_content p {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.hotel_cards_btn {
+    background-color: #fff;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.hotel_cards_btn:hover {
+    color: #fff;
+}
+
+.hotel_cards_btn::after {
+    background: #000;
+}
+
+section.hotel_choose .container .row>p {
+    font-size: 1.5rem;
+}
+
+.hotel_cards_btn svg {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+.hotel_cards_btn:hover svg {
+    fill: #fff;
+}
+
+.read_more_butn {
+    display: inline-flex;
+    align-items: center;
+}
+.hidden_content {
+    display: none;
+}
+.hidden_content ul li p {
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+}
+.hidden_content ul li svg {
+    height: 15px;
+    width: 15px;
+    margin-right: 4px;
+}
+/* Hotel Pages CSS End */
+
+/* Newsletter CSS Start */
+.newsletter_sec {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0 0 0/80%);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+.newsletter_input_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #B71234;
+    max-width: 37.5rem;
+    margin: 3.125rem auto 1.25rem auto;
+    padding: 0 0.625rem;
+}
+
+.newsletter_input_box input {
+    max-width: 40.625rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 0.625rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.newsletter_input_box input::placeholder {
+    color: #fff;
+}
+
+.newslettr_wrap p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.newsletter-btn {
+    backdrop-filter: blur(7px);
+}
+/* Newsletter CSS End */

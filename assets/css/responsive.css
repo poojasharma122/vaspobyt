@@ -19,7 +19,20 @@
         margin-top: 35px;
         padding-left: 0;
     }
-
+    .hotels_card_content {
+        padding: 3.33rem;
+        margin-top: 0;
+    }
+    .hotels_card_img_outer {
+        height: 27.33rem;
+    }
+    .hotel_cards .img_prt {
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    .hotel_cards.reverse .hotels_card_img_outer {
+        margin-left: 0;
+    }
 
 }
 
