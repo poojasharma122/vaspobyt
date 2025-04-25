@@ -1340,3 +1340,10 @@ fieldset {
     color: #444546;
 }
 /* Contact  CSS End*/
+
+/* About Page CSS Start */
+.why_us_wrap .row>p {
+    font-size: 1.1rem;
+    color: #584528;
+}
+/* About Page CSS End */
