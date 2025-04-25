@@ -1182,4 +1182,17 @@ section.hotel_choose .container .row>p {
     margin-top: 1.4rem;
     line-height: 1.3;
 }
+.blog_heading_icon {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+.blog_cards_group ul li {
+    list-style-type: disc;
+    margin-left: 16px;
+}
 /* Blog Page CSS End */
